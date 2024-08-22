@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+h1 {
+    text-align: centrer;
+    text-align: right;
+    text-align: left;
+
+}
+
+span {
+    text-align: center;
+    font-size: larger;
+
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: 900;
+
+    font-family: Arial, Helvetica, sans-serif;
+   
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 30px;
+
+}
+p {
+    line-height: normal;
+    /*line-height: 3*/
+    line-height: 50px; 
+
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-transform: none;
+}
