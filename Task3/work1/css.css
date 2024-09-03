@@ -2,7 +2,13 @@ header{
     background-color: orange;
     color: yellow; 
 }
-*{
+form{
     background-color: black;
     color: yellow;
+    text-align: center;
+    
+}
+    
+footer{
+    background-color: orange;
 }

@@ -8,21 +8,29 @@
 </head>
 <body>
     <header>Sigh Up</header>
-    
+    <form>
     <label for="name">First Name</label> 
     <input type="text" id="name" name="name" placeholder="Enter First Name"><br><br>
 
     <label for="name1">Last Name</label>
     <input type="text" id="name1" name="name" placeholder="Enter Last Name"><br><br>
 
-    <label for="dob">Date Of Birth</label>
     <div class="dob">
+        <label for="name">Date Of Birth</label>
         <select id="Date">
             <option>date</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>etc.</option>
         </select>
 
         <select id="Month">
             <option>Month</option>
+            <option>jan</option>
+            <option>feb</option>
+            <option>mar</option>
+            <option>etc.</option>
         </select>
 
         <select id="Year">
@@ -63,11 +71,12 @@
     <input type="checkbox" id="checkbox" name="checkbox">
     <label for="checkbox">I Agree to the terms of use</label>
     <br><br>
-
-    <div style="border: 2px solid black;">
-        <input type="submit">
-        <input type="cancel">
-    </div>
     
+    <footer>
+        <button style="background-color: green;">Submit</button>
+        <button style="background-color: red;">cancel</button>
+
+    </footer>
+    </form>
 </body>
 </html>
