@@ -14,12 +14,46 @@ nav{
     background-color: black;
     color: white;
 }
+section{
+    display: none;
+}
 
 nav span{
     padding: 8px;
-    margin: 0px 10;
+    margin: 0px 10px 0px 10px;
+}
+section .list-container {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    margin-top: 8px;
 }
 
-section ul{
+section ul {
     list-style: none;
+    display: inline-block;
+    margin: 0px 8px 0px 8px;
+    line-height: 2;
+    padding: 8px;
+    text-align: justify;
+
+}
+.list.items {
+    position: relative;
+    bottom: 63px;
+}
+.list.items2{
+    position: relative;
+    bottom: 128px;
+}
+.section-2 .list.items{
+    bottom: 75px;
+}
+.store:hover ~ .section-1{
+    display: block;
+
+}
+.mac:hover ~ .section-2{
+    display: block;
 }
