@@ -42,18 +42,29 @@ section ul {
 .list.items {
     position: relative;
     bottom: 63px;
-}
-.list.items2{
-    position: relative;
-    bottom: 128px;
+
 }
 .section-2 .list.items{
     bottom: 75px;
 }
-.store:hover ~ .section-1{
+.section-1 .large.txt {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.store:hover ~ .section-1 {
     display: block;
 
 }
-.mac:hover ~ .section-2{
+.mac:hover ~ .section-2 {
+    display: block;
+}
+.ipad:hover ~ .section-3 {
+    display: block;
+}
+.iphone:hover ~ .section-4 {
+    display:  block;
+}
+.watch:hover ~ .section-5 {
     display: block;
 }
