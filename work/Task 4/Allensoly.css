@@ -76,3 +76,7 @@ nav{
     background-color: white;
     color: black;
 }
+
+.section-1{
+    display: none;
+}
