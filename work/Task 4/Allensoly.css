@@ -76,7 +76,60 @@ nav{
     background-color: white;
     color: black;
 }
-
-.section-1{
+section {
     display: none;
+}
+
+nav span {
+    padding: 8px;
+    margin: 0px 10px 0px 10px;
+}
+section .list-container {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    margin-top: 8px;
+}
+
+section ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px 0px 8px;
+    line-height: 2;
+    padding: 8px;
+    text-align: justify;
+
+}
+.list.items {
+    position: relative;
+    bottom: 63px;
+
+}
+.section-2 .list-items{
+    bottom: 75px;
+}
+.section-1 .large.txt {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.PRODUCTS:hover ~ .section-1 {
+    display: block;
+
+}
+.NEW-ARRIVALS:hover ~ .section-2 {
+    display: block;
+}
+.SCPEIAL-SIZE:hover ~ .section-3 {
+    display: block;
+}
+.WEDDING-STORE:hover ~ .section-4 {
+    display:  block;
+}
+.GIFT-CARDS:hover ~ .section-5 {
+    display: block;
+}
+.SALE:hover ~ .section- {
+    display: block;
 }
